@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_entity
+id: city_save
+label: "Save cities"
+type: city
+plugin: entity:save_action:city
+configuration: {}
